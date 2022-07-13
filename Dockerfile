@@ -9,5 +9,5 @@ RUN ./mvnw package
 
 From openjdk:11
 ADD ./target/account-opening-api-0.0.1-SNAPSHOT.jar account-opening-api-0.0.1-SNAPSHOT.jar
-EXPOSE 8090
+EXPOSE 8585
 CMD ["java","-jar","account-opening-api-0.0.1-SNAPSHOT.jar"]
